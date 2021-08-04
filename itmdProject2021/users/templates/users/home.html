@@ -1,0 +1,32 @@
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+
+    <link rel="stylesheet" href="{% static 'users/css/main.css' %}">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col g-0">
+                <h1 id="header-h1">Shital Sadgir ITMD-513 Final Project </h1>
+                <h2 id="header-h2">Illinois Institute of Technology </h2>
+                <br>
+                <p style=font-size:20px> Crimes in my neighbourhood.</p>
+                <p style=font-size:20px> Data between 2019 to 2021 is collected for the analysis of crime rate in my neighbourhood.
+                    <br>
+                    The two locations selected are: <br>
+                    <b> 2901 S King Drive </b> and <b> Chicago State University </b> located at 5801 S Ellis Ave,
+                    Chicago, IL 60637.
+                    <br>
+                    Collected reports are:
+                    <br>
+                <ul style=font-size:20px>
+                    1. Total Thefts <br>
+                    2. Top 5 crimes in the neighbourhood <br>
+                    3. Arrest/Non-Arrest ratio<br>
+                    4. Blocks by their crime rate<br>
+                    5. Domestic Violence ratio<br>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

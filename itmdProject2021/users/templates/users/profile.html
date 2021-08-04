@@ -1,0 +1,12 @@
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+    <div class="container">
+        Logged In user is:
+        <h2>{{ user.username }}</h2>
+        Logged In user's email is:
+        <h2>{{ user.email }}</h2>
+    </div>
+{% endblock %}
